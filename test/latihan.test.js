@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Counter from './counter'; // Karena counter.js berada di folder yang sama
-import Greeting from './latihan'; // Karena latihan.js berada di folder yang sama
+import Counter from './counter'; 
+import Greeting from './latihan'; 
 
 
 describe('Latihan - Counter Component', () => {
