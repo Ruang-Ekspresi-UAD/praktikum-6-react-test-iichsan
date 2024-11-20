@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Counter from './counter'; // Karena counter.js berada di folder yang sama
-import Display from './display'; // Karena display.js berada di folder yang sama
+import Counter from './counter';
+import Display from './display'; 
 
 
 describe('Percobaan - Counter Component', () => {
